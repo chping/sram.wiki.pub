@@ -8,6 +8,13 @@
 
 - [SRAM Metrics Index](SRAM_Metrics/README.md)
 
+### Device
+
+- [Ioff](SRAM_Metrics/Device/Ioff.md)
+- [Ion](SRAM_Metrics/Device/Ion.md)
+- [Isat](SRAM_Metrics/Device/Isat.md)
+- [Vth & Vth mismatch](SRAM_Metrics/Device/Vth.md)
+
 ### Bitcell
 
 - [CELL_BL RC](SRAM_Metrics/Bitcell/CELL_BL_RC.md)
@@ -23,20 +30,6 @@
 - [WM (Write Margin)](SRAM_Metrics/Bitcell/WM.md)
 - [WSNM (Write Static Noise Margin)](SRAM_Metrics/Bitcell/WSNM.md)
 - [WTV](SRAM_Metrics/Bitcell/WTV.md)
-
-### Device
-
-- [Ioff](SRAM_Metrics/Device/Ioff.md)
-- [Ion](SRAM_Metrics/Device/Ion.md)
-- [Isat](SRAM_Metrics/Device/Isat.md)
-- [Vth & Vth mismatch](SRAM_Metrics/Device/Vth.md)
-
-### Macro
-
-- [EDAP (Energy Delay Area Product)](SRAM_Metrics/Macro/EDAP.md)
-- [EDP (Energy Delay Product)](SRAM_Metrics/Macro/EDP.md)
-- [Interconnect Length & Area](SRAM_Metrics/Macro/Interconnect_Length_Area.md)
-- [Tree Delay/Energy %](SRAM_Metrics/Macro/Tree_Delay_Energy_Percent.md)
 
 ### Peripherial
 
@@ -57,6 +50,13 @@
 - [WD (Write Delay)](SRAM_Metrics/Subarray/Write_Delay.md)
 - [WE (Write Energy)](SRAM_Metrics/Subarray/Write_Energy.md)
 - [Write Time](SRAM_Metrics/Subarray/Write_Time.md)
+
+### Macro
+
+- [EDAP (Energy Delay Area Product)](SRAM_Metrics/Macro/EDAP.md)
+- [EDP (Energy Delay Product)](SRAM_Metrics/Macro/EDP.md)
+- [Interconnect Length & Area](SRAM_Metrics/Macro/Interconnect_Length_Area.md)
+- [Tree Delay/Energy %](SRAM_Metrics/Macro/Tree_Delay_Energy_Percent.md)
 
 ## 术语规范
 
