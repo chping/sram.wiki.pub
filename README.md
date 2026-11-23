@@ -6,6 +6,10 @@
 
 ## SRAM_Metrics
 
+- [SRAM Metrics Index](SRAM_Metrics/README.md)
+
+### Bitcell
+
 - [CELL_BL RC](SRAM_Metrics/Bitcell/CELL_BL_RC.md)
 - [CELL_R_VDD & CELL_R_VSS](SRAM_Metrics/Bitcell/CELL_R_VDD_CELL_R_VSS.md)
 - [CELL_WL RC](SRAM_Metrics/Bitcell/CELL_WL_RC.md)
@@ -19,18 +23,29 @@
 - [WM (Write Margin)](SRAM_Metrics/Bitcell/WM.md)
 - [WSNM (Write Static Noise Margin)](SRAM_Metrics/Bitcell/WSNM.md)
 - [WTV](SRAM_Metrics/Bitcell/WTV.md)
+
+### Device
+
 - [Ioff](SRAM_Metrics/Device/Ioff.md)
 - [Ion](SRAM_Metrics/Device/Ion.md)
 - [Isat](SRAM_Metrics/Device/Isat.md)
 - [Vth & Vth mismatch](SRAM_Metrics/Device/Vth.md)
+
+### Macro
+
 - [EDAP (Energy Delay Area Product)](SRAM_Metrics/Macro/EDAP.md)
 - [EDP (Energy Delay Product)](SRAM_Metrics/Macro/EDP.md)
 - [Interconnect Length & Area](SRAM_Metrics/Macro/Interconnect_Length_Area.md)
 - [Tree Delay/Energy %](SRAM_Metrics/Macro/Tree_Delay_Energy_Percent.md)
+
+### Peripherial
+
 - [SA Decision Threshold](SRAM_Metrics/Peripherial/SA_Decision_Threshold.md)
 - [SA Offset](SRAM_Metrics/Peripherial/SA_Offset.md)
 - [SA Standby Current](SRAM_Metrics/Peripherial/SA_Standby_Current.md)
-- [SRAM Metrics Index](SRAM_Metrics/README.md)
+
+### Subarray
+
 - [BL Leakage](SRAM_Metrics/Subarray/BL_Leakage.md)
 - [BL RC](SRAM_Metrics/Subarray/BL_RC.md)
 - [R_VDD & R_VSS](SRAM_Metrics/Subarray/R_VDD_R_VSS.md)
