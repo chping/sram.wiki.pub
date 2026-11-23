@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="948" height="330" viewBox="0 0 948 330" role="img" aria-labelledby="title desc">
+  <title id="title">EDAP 示例：规格筛选与面积敏感度</title>
+  <desc id="desc">左图：A、C 通过规格且位于三维 Pareto 前沿，D 受 A 支配，B 超过 0.90 ns 延时上限。右图：延时不变、能量下降 10% 时，面积增加 11.1% 对应相同 EDAP，面积增加 12.5% 对应 EDAP 增加 1.25%。</desc>
+  <style>
+    text {font: 14px -apple-system, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #172638}
+    .head {font-size: 18px;font-weight: 700}
+    .ticks {font-size: 12px}
+    .grid {stroke:#dce4eb;stroke-width:1;fill:none}
+    .axis {stroke:#536578;stroke-width:1.3;fill:none}
+    .limit {stroke:#9a5407;stroke-width:1.6;stroke-dasharray:5 4}
+    .note {fill:#7b470d}
+    .line {stroke:#11678c;stroke-width:2.7;fill:none}
+  </style>
+  <rect width="948" height="330" rx="8" fill="#fff"/>
+  <path d="M474 24v284" stroke="#dce4eb"/>
+  <text class="head" x="32" y="36">（a）读延时与读能量（点旁为宏面积）</text>
+  <text class="head" x="513" y="36">（b）面积增幅与 EDAP（延时不变）</text>
+  <text x="76" y="64">读能量（pJ/次）</text>
+  <text x="572" y="64">相对基线 A 的 EDAP</text>
+  <path d="M297.33 73H408V278H297.33Z" fill="#fff1df"/>
+  <path class="grid" d="M76 73H408m-332 51.25h332m-332 51.25h332m-332 51.25h332M572 73H875m-303 58.57h303m-303 73.21h303"/>
+  <path class="axis" d="M76 73V278H408M572 73V278H875"/>
+  <path class="limit" d="M297.33 73v205M572 131.57H875"/>
+  <g class="ticks" text-anchor="end">
+    <text x="68" y="77">2.50</text><text x="68" y="128">2.25</text><text x="68" y="180">2.00</text><text x="68" y="231">1.75</text><text x="68" y="282">1.50</text>
+    <text x="564" y="77">1.04</text><text x="564" y="136">1.00</text><text x="564" y="209">0.95</text><text x="564" y="282">0.90</text>
+  </g>
+  <g class="ticks" text-anchor="middle">
+    <text x="76" y="295">0.60</text><text x="149.78" y="295">0.70</text><text x="223.56" y="295">0.80</text><text x="297.33" y="295">0.90</text><text x="371.11" y="295">1.00</text>
+    <text x="572" y="295">0%</text><text x="673" y="295">5%</text><text x="774" y="295">10%</text><text x="875" y="295">15%</text>
+  </g>
+  <text x="242" y="316" text-anchor="middle">读延时（ns）</text>
+  <text x="723" y="316" text-anchor="middle">宏面积增幅</text>
+  <text class="note" x="347" y="91" text-anchor="middle">超出延时规格</text>
+  <circle cx="223.56" cy="175.5" r="5" fill="#11678c"/>
+  <circle cx="112.89" cy="134.5" r="5" fill="#11678c"/>
+  <circle cx="297.33" cy="103.75" r="5" fill="#fff" stroke="#536578" stroke-width="2"/>
+  <path d="M366.1 252.5l10 10m0-10-10 10" stroke="#9a5407" stroke-width="2"/>
+  <text x="215" y="194" text-anchor="end">A：10 000 μm²</text>
+  <text x="122" y="153">C：10 500 μm²</text>
+  <text x="284" y="97" text-anchor="end">D：10 800 μm²</text>
+  <text class="ticks" x="351" y="247" text-anchor="middle">B：9 000 μm²</text>
+  <path class="line" d="M572 278L875 80.32"/>
+  <circle cx="796.44" cy="131.57" r="5" fill="#11678c"/>
+  <circle cx="824.5" cy="113.27" r="5" fill="#11678c"/>
+  <path d="M796.44 138v40m28.06-71V91h-12" fill="none" stroke="#536578"/>
+  <text x="796.44" y="196" text-anchor="middle">+11.1%：EDAP 持平</text>
+  <text x="801" y="95" text-anchor="end">+12.5%：EDAP +1.25%</text>
+  <text x="778" y="64">能量 −10%</text>
+</svg>
